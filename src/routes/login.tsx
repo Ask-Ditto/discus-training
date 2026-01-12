@@ -49,6 +49,7 @@ login.get('/', (c) => {
           }
 
           h1 {
+            font-family: 'Roboto', sans-serif;
             font-size: 1.75rem;
             color: #161626;
             text-align: center;
@@ -56,6 +57,7 @@ login.get('/', (c) => {
           }
 
           .subtitle {
+            font-family: 'Roboto', sans-serif;
             text-align: center;
             color: #6b7280;
             margin-bottom: 2rem;
@@ -63,6 +65,7 @@ login.get('/', (c) => {
           }
 
           .error-message {
+            font-family: 'Roboto', sans-serif;
             background: #fee2e2;
             border: 1px solid #ef4444;
             color: #991b1b;
@@ -77,6 +80,7 @@ login.get('/', (c) => {
           }
 
           label {
+            font-family: 'Roboto', sans-serif;
             display: block;
             color: #374151;
             font-weight: 500;
@@ -85,6 +89,7 @@ login.get('/', (c) => {
           }
 
           input {
+            font-family: 'Roboto', sans-serif;
             width: 100%;
             padding: 0.75rem;
             border: 1px solid #d1d5db;
@@ -100,6 +105,7 @@ login.get('/', (c) => {
           }
 
           button {
+            font-family: 'Roboto', sans-serif;
             width: 100%;
             background: #f3ab40;
             color: white;
