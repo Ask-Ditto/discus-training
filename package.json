@@ -1,0 +1,21 @@
+{
+  "name": "academy-sixseeds",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && wrangler pages deploy dist"
+  },
+  "dependencies": {
+    "hono": "^4.6.14"
+  },
+  "devDependencies": {
+    "@hono/vite-build": "^1.0.8",
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5",
+    "vite": "^6.4.1",
+    "wrangler": "^3.94.0"
+  }
+}
