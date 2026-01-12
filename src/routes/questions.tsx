@@ -1,36 +1,15 @@
 import { Hono } from 'hono'
-import { Navigation } from '../components/Navigation'
-import CSS from '../../public/static/style.css?raw'
+import { Layout } from '../components/Layout'
 
 const questions = new Hono()
 
-const Layout = (props: { children: any }) => {
-  return (
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Question Writing Guide - Six Seeds Academy</title>
-        <meta name="description" content="Best practices for writing effective synthetic research questions" />
-        <style dangerouslySetInnerHTML={{ __html: CSS }} />
-      </head>
-      <body>
-        <Navigation currentPage="questions" />
-        {props.children}
-        <footer class="footer">
-          <div class="footer-content">
-            <p><strong>Six Seeds Consulting</strong></p>
-            <p>Questions? Contact us at <a href="mailto:hello@sixseedsconsulting.com">hello@sixseedsconsulting.com</a></p>
-          </div>
-        </footer>
-      </body>
-    </html>
-  )
-}
-
 questions.get('/', (c) => {
   return c.html(
-    <Layout>
+    <Layout
+      currentPage="questions"
+      title="Question Writing Guide"
+      description="Best practices for writing effective synthetic research questions"
+    >
       <section class="hero">
         <div class="hero-content">
           <h1 class="hero-title">Question Writing Guide</h1>
@@ -448,22 +427,7 @@ questions.get('/', (c) => {
             <div class="warning-box">
               <div class="warning-box-header">
                 <span class="warning-icon">⚠️</span>
-                <h4>Pitfall #3: Too Many Questions</h4>
-              </div>
-              <p>
-                <strong>Problem:</strong> Long surveys cause fatigue and declining response
-                quality. Each additional question increases drop-off.
-              </p>
-              <p>
-                <strong>Solution:</strong> Be ruthless in prioritizing. Ask only questions
-                that drive specific decisions. Aim for 5-8 core questions maximum per study.
-              </p>
-            </div>
-
-            <div class="warning-box">
-              <div class="warning-box-header">
-                <span class="warning-icon">⚠️</span>
-                <h4>Pitfall #4: Asking About Price Without Context</h4>
+                <h4>Pitfall #3: Asking About Price Without Context</h4>
               </div>
               <p>
                 <strong>Problem:</strong> "What would you pay for this?" generates unrealistically
@@ -473,55 +437,6 @@ questions.get('/', (c) => {
                 <strong>Solution:</strong> Provide competitive context or use van Westendorp
                 pricing methodology. "At what price would you consider this a bargain?" / "At
                 what price would it seem too expensive?"
-              </p>
-            </div>
-          </section>
-
-          <section class="content-section">
-            <h2>Checklist: Before You Launch</h2>
-            <p>
-              Before finalizing your research questions, run through this checklist:
-            </p>
-            <ul>
-              <li>
-                ✓ <strong>Clear objective:</strong> Does each question tie to a specific
-                decision or hypothesis?
-              </li>
-              <li>
-                ✓ <strong>Single focus:</strong> Is each question about one thing only?
-              </li>
-              <li>
-                ✓ <strong>No bias:</strong> Are questions neutral without leading language?
-              </li>
-              <li>
-                ✓ <strong>Simple language:</strong> Would a typical consumer understand every
-                word?
-              </li>
-              <li>
-                ✓ <strong>Necessary context:</strong> Have you provided background where needed?
-              </li>
-              <li>
-                ✓ <strong>Actionable:</strong> Will the answers actually inform decisions?
-              </li>
-              <li>
-                ✓ <strong>Realistic scope:</strong> Can respondents reasonably answer based on
-                their knowledge?
-              </li>
-              <li>
-                ✓ <strong>Proper sequence:</strong> Do questions flow logically from general to
-                specific?
-              </li>
-            </ul>
-
-            <div class="info-box">
-              <div class="info-box-header">
-                <span class="info-icon">💡</span>
-                <h4>Pro Tip: Test Your Questions</h4>
-              </div>
-              <p>
-                Before launching a major study, test your questions on 5-10 people who match
-                your target audience. Ask them to think aloud as they answer. This quickly
-                reveals confusing language, missing context, or unintended interpretations.
               </p>
             </div>
           </section>
@@ -565,16 +480,13 @@ questions.get('/', (c) => {
               <div class="practice-example">
                 <span class="example-label">Question:</span>
                 <span class="example-text">
-                  "[Brand] recently launched a campaign highlighting their sustainable practices.
-                  Have you seen this messaging, and if so, how does it affect your perception of
-                  the brand?"
+                  "If [Brand] started highlighting their commitment to sustainability - like using organic ingredients, reducing carbon emissions, and supporting local farmers - would this change how you view the brand? Why or why not?"
                 </span>
               </div>
               <div class="practice-example">
                 <span class="example-label">Why it works:</span>
                 <span class="example-text">
-                  Provides context, qualifies with "if you've seen", explores perception change
-                  rather than forcing an opinion
+                  Sets up a clear scenario with specific details, asks for perception impact and reasoning, allows personas to evaluate the concept without needing prior exposure
                 </span>
               </div>
             </div>
