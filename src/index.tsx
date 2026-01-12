@@ -15,6 +15,7 @@ import gettingStarted from './routes/getting-started'
 import quickQuestions from './routes/quick-questions'
 import fullResearchStudies from './routes/full-research-studies'
 import scientificPapers from './routes/scientific-papers'
+import faq from './routes/faq'
 
 const app = new Hono()
 
@@ -31,5 +32,6 @@ app.route('/getting-started', gettingStarted)
 app.route('/quick-questions', quickQuestions)
 app.route('/full-research-studies', fullResearchStudies)
 app.route('/scientific-papers', scientificPapers)
+app.route('/faq', faq)
 
 export default app

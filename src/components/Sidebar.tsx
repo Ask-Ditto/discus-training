@@ -55,6 +55,13 @@ export const Sidebar = (props: { currentPage: string }) => {
         >
           Scientific Papers
         </a>
+        <a
+          href="/faq"
+          class={`sidebar-nav-link ${props.currentPage === 'faq' ? 'active' : ''}`}
+          onclick="closeSidebar()"
+        >
+          FAQ
+        </a>
       </nav>
       <div class="sidebar-footer">
         <a href="/logout" class="sidebar-logout-link">
