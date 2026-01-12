@@ -24,7 +24,7 @@ useCases.get('/', (c) => {
           <section class="content-section">
             <h2>When to Use Synthetic Research</h2>
             <p>
-              Six Seeds Synthetic Research excels in specific scenarios where speed, scale, and cost matter.
+              6 Seeds Synthetic Research excels in specific scenarios where speed, scale, and cost matter.
               Here are the ideal use cases:
             </p>
 

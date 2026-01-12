@@ -2,7 +2,12 @@ import { Hono } from 'hono'
 import { Navigation } from './components/Navigation'
 import CSS from '../public/static/style.css?raw'
 
+// Import authentication middleware
+import { authMiddleware } from './middleware/auth'
+
 // Import route handlers
+import login from './routes/login'
+import logout from './routes/logout'
 import home from './routes/home'
 import questions from './routes/questions'
 import whatIs from './routes/what-is-synthetic-research'
@@ -13,7 +18,12 @@ import scientificPapers from './routes/scientific-papers'
 
 const app = new Hono()
 
-// Mount routes
+// Public routes (no authentication required)
+app.route('/login', login)
+
+// Protected routes (authentication required)
+app.use('*', authMiddleware)
+app.route('/logout', logout)
 app.route('/', home)
 app.route('/what-is-synthetic-research', whatIs)
 app.route('/questions', questions)

@@ -1,4 +1,4 @@
-# Six Seeds Academy - Ditto Training Portal
+# 6 Seeds Academy - Ditto Training Portal
 
 Professional training portal for Ditto synthetic research platform clients.
 
@@ -26,7 +26,7 @@ Professional training portal for Ditto synthetic research platform clients.
 - **Comprehensive question writing guide** with specific examples
 - **Do's and Don'ts cards** for visual learning
 - **Industry-specific examples** (spirits/beverages for Discus)
-- **Professional styling** with Six Seeds branding
+- **Professional styling** with 6 Seeds branding
 - **Mobile-responsive** design for on-the-go access
 
 ## Development
@@ -166,9 +166,9 @@ All styles are in `public/static/style.css`. CSS variables at the top control:
 ## Support
 
 Questions or need to update content? Contact:
-- Andreas Duess: andreas@duess.com
-- Six Seeds Team: hello@sixseedsconsulting.com
+- Andreas Duess: andreas@6seedsconsulting.com
+- 6 Seeds Team: hello@6seedsconsulting.com
 
 ## License
 
-Proprietary - Six Seeds Consulting
+Proprietary - 6 Seeds Consulting

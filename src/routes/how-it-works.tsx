@@ -12,7 +12,7 @@ howItWorks.get('/', (c) => {
     >
       <section class="hero">
         <div class="hero-content">
-          <h1 class="hero-title">How Six Seeds Synthetic Research Works</h1>
+          <h1 class="hero-title">How 6 Seeds Synthetic Research Works</h1>
           <p class="hero-subtitle">
             Synthetic personas, research framework, and custom capabilities
           </p>
@@ -24,7 +24,7 @@ howItWorks.get('/', (c) => {
           <section class="content-section">
             <h2>1. Synthetic Personas</h2>
             <p>
-              Six Seeds Synthetic Research uses AI-powered synthetic personas that represent real consumer segments.
+              6 Seeds Synthetic Research uses AI-powered synthetic personas that represent real consumer segments.
               These digital twins are not generic chatbots - they are sophisticated simulations calibrated to match
               real consumer behavior patterns.
             </p>
@@ -82,7 +82,7 @@ howItWorks.get('/', (c) => {
           <section class="content-section">
             <h2>2. Standard Research Framework</h2>
             <p>
-              Each Six Seeds Synthetic Research study typically includes <strong>6 synthetic personas</strong>{' '}
+              Each 6 Seeds Synthetic Research study typically includes <strong>6 synthetic personas</strong>{' '}
               representing US adults aged 25-55, answering <strong>4 standard questions</strong>:
             </p>
 
@@ -136,7 +136,7 @@ howItWorks.get('/', (c) => {
           <section class="content-section">
             <h2>3. Your Custom Research</h2>
             <p>
-              While Six Seeds Synthetic Research includes standard questions, the real power comes from{' '}
+              While 6 Seeds Synthetic Research includes standard questions, the real power comes from{' '}
               <strong>your custom questions</strong>. This is where you can:
             </p>
 
@@ -223,7 +223,7 @@ howItWorks.get('/', (c) => {
                   <h3>Launch Study</h3>
                 </div>
                 <p>
-                  Work with your Six Seeds team to configure personas, questions, and any
+                  Work with your 6 Seeds team to configure personas, questions, and any
                   competitive comparisons.
                 </p>
                 <p style="margin-top: var(--space-3); color: var(--color-text-light);">

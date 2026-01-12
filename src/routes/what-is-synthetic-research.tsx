@@ -8,7 +8,7 @@ whatIs.get('/', (c) => {
     <Layout
       currentPage="what-is-synthetic-research"
       title="What is Synthetic Research"
-      description="Learn about Six Seeds Synthetic Research platform and methodology"
+      description="Learn about 6 Seeds Synthetic Research platform and methodology"
     >
       <section class="hero">
         <div class="hero-content">
@@ -24,16 +24,16 @@ whatIs.get('/', (c) => {
           <section class="content-section">
             <h2>Platform Overview</h2>
             <p>
-              Six Seeds Synthetic Research is a revolutionary consumer research platform that uses{' '}
+              6 Seeds Synthetic Research is a revolutionary consumer research platform that uses{' '}
               <strong>synthetic research methodology</strong> to deliver insights in hours
               instead of weeks. By leveraging AI-powered synthetic personas calibrated to match
-              real population behavior, Six Seeds Synthetic Research enables rapid, scalable, and cost-effective
+              real population behavior, 6 Seeds Synthetic Research enables rapid, scalable, and cost-effective
               consumer research.
             </p>
 
             <h3>Why Synthetic Research?</h3>
             <p>
-              Traditional consumer research is slow, expensive, and difficult to scale. Six Seeds Synthetic Research's
+              Traditional consumer research is slow, expensive, and difficult to scale. 6 Seeds Synthetic Research's
               synthetic approach offers:
             </p>
             <ul>
@@ -60,7 +60,7 @@ whatIs.get('/', (c) => {
                 <h4>Validation & Accuracy</h4>
               </div>
               <p>
-                Six Seeds Synthetic Research's synthetic personas are calibrated to achieve 95%+ correlation with
+                6 Seeds Synthetic Research's synthetic personas are calibrated to achieve 95%+ correlation with
                 traditional research methods. Our approach has been validated across hundreds
                 of studies spanning multiple industries and markets.
               </p>
@@ -166,10 +166,6 @@ whatIs.get('/', (c) => {
               Now that you understand what synthetic research is, explore these topics:
             </p>
             <ul>
-              <li>
-                <a href="/use-cases"><strong>Use Cases</strong></a> - Discover when to use
-                synthetic research (and when not to)
-              </li>
               <li>
                 <a href="/questions"><strong>Question Writing Guide</strong></a> - Master the
                 art of crafting effective research questions

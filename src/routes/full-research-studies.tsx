@@ -8,7 +8,7 @@ fullResearchStudies.get('/', (c) => {
     <Layout
       currentPage="full-research-studies"
       title="Full Research Studies Guide"
-      description="How to run comprehensive research studies with Six Seeds"
+      description="How to run comprehensive research studies with 6 Seeds"
     >
       <section class="hero">
         <div class="hero-content">

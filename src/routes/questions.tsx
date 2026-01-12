@@ -522,7 +522,7 @@ questions.get('/', (c) => {
             <p>
               Writing great research questions is both an art and a science. If you're unsure
               about your questions or want feedback before launching a study, reach out to your
-              Six Seeds team. We're here to help you get the most actionable insights possible.
+              6 Seeds team. We're here to help you get the most actionable insights possible.
             </p>
             <div class="info-box">
               <div class="info-box-header">
@@ -531,8 +531,8 @@ questions.get('/', (c) => {
               </div>
               <p>
                 Email us at{' '}
-                <a href="mailto:hello@sixseedsconsulting.com">
-                  hello@sixseedsconsulting.com
+                <a href="mailto:hello@6seedsconsulting.com">
+                  hello@6seedsconsulting.com
                 </a>{' '}
                 with your draft questions and we'll provide feedback within 24 hours.
               </p>

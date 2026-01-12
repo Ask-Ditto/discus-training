@@ -8,7 +8,7 @@ gettingStarted.get('/', (c) => {
     <Layout
       currentPage="getting-started"
       title="Getting Started"
-      description="Step-by-step guide to using Six Seeds Synthetic Research"
+      description="Step-by-step guide to using 6 Seeds Synthetic Research"
     >
       <section class="hero">
         <div class="hero-content">
@@ -24,7 +24,7 @@ gettingStarted.get('/', (c) => {
           <section class="content-section">
             <h2>Getting Started with Synthetic Research</h2>
             <p>
-              Follow these two simple steps to begin using the Six Seeds Synthetic Research platform.
+              Follow these two simple steps to begin using the 6 Seeds Synthetic Research platform.
             </p>
           </section>
 

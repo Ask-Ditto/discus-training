@@ -8,11 +8,11 @@ home.get('/', (c) => {
     <Layout
       currentPage="home"
       title="Home"
-      description="Welcome to Six Seeds Academy - Master synthetic research"
+      description="Welcome to 6 Seeds Academy - Master synthetic research"
     >
       <section class="hero">
         <div class="hero-content">
-          <h1 class="hero-title">Welcome to Six Seeds Academy</h1>
+          <h1 class="hero-title">Welcome to 6 Seeds Academy</h1>
           <p class="hero-subtitle">
             Master the art of synthetic research with our comprehensive training materials
           </p>
@@ -24,7 +24,7 @@ home.get('/', (c) => {
           <section class="content-section">
             <h2>Welcome to Your Synthetic Research Training Portal</h2>
             <p>
-              This portal contains everything you need to master Six Seeds Synthetic Research -
+              This portal contains everything you need to master 6 Seeds Synthetic Research -
               a revolutionary consumer research platform that delivers insights in hours instead of weeks.
             </p>
             <p>

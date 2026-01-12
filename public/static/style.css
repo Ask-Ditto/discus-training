@@ -13,7 +13,7 @@ html {
 }
 
 :root {
-  /* Six Seeds brand colors */
+  /* 6 Seeds brand colors */
   --color-primary: #161626;
   --color-primary-light: #f3ab40;
   --color-accent: #f3ab40;
@@ -429,10 +429,12 @@ a:hover {
   height: 100vh;
   background: white;
   border-right: 1px solid #e5e7eb;
-  padding: var(--space-8) 0;
+  padding: var(--space-8) 0 0 0;
   overflow-y: auto;
   z-index: 200;
   transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar-logo {
@@ -483,6 +485,33 @@ a:hover {
 .sidebar-nav-sublink {
   padding-left: var(--space-12);
   font-size: 0.875rem;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  padding: var(--space-6);
+  border-top: 1px solid #e5e7eb;
+}
+
+.sidebar-logout-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  color: var(--color-text-light);
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: var(--border-radius);
+  transition: all 0.2s;
+}
+
+.sidebar-logout-link:hover {
+  background: #f9fafb;
+  color: var(--color-danger);
+}
+
+.logout-icon {
+  font-size: 1.25rem;
 }
 
 .main-content {

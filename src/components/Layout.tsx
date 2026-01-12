@@ -7,7 +7,7 @@ export const Layout = (props: { children: any; currentPage: string; title: strin
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{props.title} - Six Seeds Academy</title>
+        <title>{props.title} - 6 Seeds Academy</title>
         <meta name="description" content={props.description} />
         <style dangerouslySetInnerHTML={{ __html: CSS }} />
         <script
@@ -42,11 +42,11 @@ export const Layout = (props: { children: any; currentPage: string; title: strin
             <footer class="footer">
               <div class="footer-content">
                 <p>
-                  <strong>Six Seeds Consulting</strong>
+                  <strong>6 Seeds Consulting</strong>
                 </p>
                 <p>
                   Questions? Contact us at{' '}
-                  <a href="mailto:hello@sixseedsconsulting.com">hello@sixseedsconsulting.com</a>
+                  <a href="mailto:hello@6seedsconsulting.com">hello@6seedsconsulting.com</a>
                 </p>
               </div>
             </footer>

@@ -3,7 +3,7 @@ export const Navigation = (props: { currentPage?: string }) => {
     <nav class="navbar">
       <div class="navbar-container">
         <a href="/" class="navbar-brand">
-          <img src="/static/6seeds-logo.webp" alt="Six Seeds" class="navbar-logo-img" />
+          <img src="/static/6seeds-logo.webp" alt="6 Seeds" class="navbar-logo-img" />
           <div class="navbar-subtitle">Synthetic Research Training</div>
         </a>
         <div class="navbar-links">

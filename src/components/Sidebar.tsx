@@ -2,7 +2,7 @@ export const Sidebar = (props: { currentPage: string }) => {
   return (
     <aside class="sidebar">
       <div class="sidebar-logo">
-        <img src="/static/6seeds-logo.webp" alt="Six Seeds" class="sidebar-logo-img" />
+        <img src="/static/6seeds-logo.webp" alt="6 Seeds" class="sidebar-logo-img" />
         <div class="sidebar-logo-text">Synthetic Research Training</div>
       </div>
       <nav class="sidebar-nav">
@@ -56,6 +56,12 @@ export const Sidebar = (props: { currentPage: string }) => {
           Scientific Papers
         </a>
       </nav>
+      <div class="sidebar-footer">
+        <a href="/logout" class="sidebar-logout-link">
+          <span class="logout-icon">🚪</span>
+          Logout
+        </a>
+      </div>
     </aside>
   )
 }
