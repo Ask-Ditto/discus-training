@@ -32,8 +32,7 @@ gettingStarted.get('/', (c) => {
             <h3>1. Log In and Navigate to Research Groups</h3>
             <p>
               After logging in, you'll see your available research groups. These represent
-              different target audiences you can research - for example, beer drinkers, wine
-              enthusiasts, or spirits consumers.
+              different target audiences you can research.
             </p>
             <p>
               Select the research group that matches your target audience for this study.

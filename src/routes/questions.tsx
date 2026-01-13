@@ -398,7 +398,7 @@ questions.get('/', (c) => {
               </div>
               <p>
                 <strong>Problem:</strong> Asking "Would you buy..." or "How likely would you
-                be to..." generates unreliable responses. People are terrible at predicting
+                be to..." generates unreliable responses. People, including synthetic people, are terrible at predicting
                 their future behavior.
               </p>
               <p>
