@@ -39,6 +39,17 @@ home.get('/', (c) => {
               qualitative and quantitative research, and why this tool is optimized for the former.
             </p>
 
+            <div class="audio-player-container">
+              <div class="audio-player-header">
+                <span class="audio-icon">🎧</span>
+                <span class="audio-label">Listen: Quantitative vs. Qualitative Research</span>
+              </div>
+              <audio controls class="audio-player">
+                <source src="/static/audio/quant-vs-qual.m4a" type="audio/mp4" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+
             <div class="comparison-table">
               <div class="comparison-column">
                 <div class="comparison-header quantitative-secondary">

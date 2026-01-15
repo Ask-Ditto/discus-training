@@ -586,6 +586,42 @@ a:hover {
   margin: 0 auto;
 }
 
+/* Audio Player */
+.audio-player-container {
+  background: linear-gradient(135deg, rgba(243, 171, 64, 0.05) 0%, rgba(243, 171, 64, 0.02) 100%);
+  border: 1px solid rgba(243, 171, 64, 0.2);
+  border-radius: var(--border-radius);
+  padding: var(--space-6);
+  margin: var(--space-6) 0;
+}
+
+.audio-player-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.audio-icon {
+  font-size: 1.5rem;
+}
+
+.audio-label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.audio-player {
+  width: 100%;
+  height: 40px;
+  outline: none;
+}
+
+.audio-player::-webkit-media-controls-panel {
+  background-color: white;
+}
+
 /* Comparison Table */
 .comparison-table {
   display: grid;
