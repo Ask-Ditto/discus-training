@@ -186,16 +186,15 @@ questions.get('/', (c) => {
                   <div class="practice-example">
                     <span class="example-label">Good Example:</span>
                     <span class="example-text">
-                      Question 1: "How satisfied are you with [Brand]'s product quality?"
+                      Question 1: "What's your experience been with [Brand]'s product quality?"
                       <br />
-                      Question 2: "How satisfied are you with [Brand]'s customer service?"
+                      Question 2: "How would you describe your experiences with [Brand]'s customer service?"
                     </span>
                   </div>
                   <div class="practice-example">
                     <span class="example-label">Why it's good:</span>
                     <span class="example-text">
-                      Each question has a clear, single focus. Responses are unambiguous and
-                      actionable.
+                      Each question has a clear, single focus. Open-ended framing encourages detailed qualitative responses.
                     </span>
                   </div>
                 </div>
@@ -241,14 +240,14 @@ questions.get('/', (c) => {
                   <div class="practice-example">
                     <span class="example-label">Good Example:</span>
                     <span class="example-text">
-                      "How easy is it to shop with [Brand] across their website, app, and
-                      stores?"
+                      "When you think about shopping for [Product Category], what would make you
+                      choose to shop on a website versus in a physical store?"
                     </span>
                   </div>
                   <div class="practice-example">
                     <span class="example-label">Why it's good:</span>
                     <span class="example-text">
-                      Plain language everyone understands. Concrete examples of channels.
+                      Plain language everyone understands. Explores preferences and reasoning without requiring actual experience.
                     </span>
                   </div>
                 </div>
@@ -291,16 +290,15 @@ questions.get('/', (c) => {
                   <div class="practice-example">
                     <span class="example-label">Good Example:</span>
                     <span class="example-text">
-                      "[Brand] recently reformulated their flagship product to use more natural
-                      ingredients. If you've tried the new version, what differences have you
-                      noticed?"
+                      "[Brand] recently announced they're reformulating their flagship product to use more natural
+                      ingredients. What would this change signal to you about the brand?"
                     </span>
                   </div>
                   <div class="practice-example">
                     <span class="example-label">Why it's good:</span>
                     <span class="example-text">
-                      Provides context about the change and qualifies respondents who've
-                      actually tried it.
+                      Provides context about the change and explores perceptions without requiring
+                      actual product trial.
                     </span>
                   </div>
                 </div>
@@ -349,22 +347,22 @@ questions.get('/', (c) => {
               </span>
             </div>
 
-            <h3>Behavioral Questions</h3>
+            <h3>Decision-Focused Questions</h3>
             <p>
-              Focus on actual behaviors rather than hypothetical intentions. Past behavior is
-              the best predictor of future behavior.
+              Explore the factors and reasoning that drive decisions. Understanding what matters
+              most reveals priorities and values.
             </p>
             <div class="practice-example">
               <span class="example-label">Example:</span>
               <span class="example-text">
-                "Thinking about the last time you purchased [Product Category], what made you
-                choose that particular brand?"
+                "When you're deciding which [Product Category] to buy, what factors matter most
+                to you and why?"
               </span>
             </div>
             <div class="practice-example">
               <span class="example-label">Best for:</span>
               <span class="example-text">
-                Purchase drivers, usage patterns, customer journey mapping
+                Purchase drivers, decision criteria, priority ranking
               </span>
             </div>
 
@@ -455,15 +453,14 @@ questions.get('/', (c) => {
               <div class="practice-example">
                 <span class="example-label">Question:</span>
                 <span class="example-text">
-                  "When you're shopping for premium whiskey ($50+), what factors influence your
-                  choice? Think about your last purchase - what made you select that particular
-                  bottle?"
+                  "When you're considering premium whiskey ($50+), what factors would influence your
+                  choice? What makes one bottle more appealing than another at that price point?"
                 </span>
               </div>
               <div class="practice-example">
                 <span class="example-label">Why it works:</span>
                 <span class="example-text">
-                  Specific category and price point, grounds in actual behavior, open-ended to
+                  Specific category and price point, explores decision criteria and preferences, open-ended to
                   discover unexpected drivers
                 </span>
               </div>
