@@ -33,6 +33,23 @@ faq.get('/', (c) => {
               consumer research.
             </p>
 
+            <h3>What's the difference between qualitative and quantitative research?</h3>
+            <p>
+              <strong>Quantitative research</strong> answers "how many" and "how much" questions using
+              numbers and statistics. It measures, counts, and identifies large-scale patterns through
+              surveys, web analytics, and statistical analysis.
+            </p>
+            <p>
+              <strong>Qualitative research</strong> explores "why" and "how" questions to understand
+              motivations, emotions, and the context behind behaviors. It uncovers deep insights through
+              interviews, focus groups, and open-ended exploration.
+            </p>
+            <p>
+              <strong>6 Seeds excels at qualitative research.</strong> Our platform is optimized for
+              exploratory, open-ended questions that reveal consumer motivations and perceptions—not for
+              quantitative measurement or statistical analysis.
+            </p>
+
             <h3>How accurate is synthetic research?</h3>
             <p>
               Our synthetic personas are calibrated to achieve 95%+ correlation with
