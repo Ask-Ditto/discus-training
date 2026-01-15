@@ -612,11 +612,11 @@ a:hover {
 }
 
 .comparison-header.qualitative-primary {
-  background: linear-gradient(135deg, var(--color-success) 0%, #059669 100%);
+  background: linear-gradient(135deg, #f3ab40 0%, #e89a2d 100%);
 }
 
 .comparison-header.quantitative-secondary {
-  background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%);
+  background: linear-gradient(135deg, #5dbecd 0%, #4aa8b5 100%);
 }
 
 .badge {
