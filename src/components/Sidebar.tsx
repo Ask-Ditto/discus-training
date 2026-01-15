@@ -14,13 +14,6 @@ export const Sidebar = (props: { currentPage: string }) => {
           Home
         </a>
         <a
-          href="/what-is-synthetic-research"
-          class={`sidebar-nav-link ${props.currentPage === 'what-is-synthetic-research' ? 'active' : ''}`}
-          onclick="closeSidebar()"
-        >
-          What is Synthetic Research
-        </a>
-        <a
           href="/questions"
           class={`sidebar-nav-link ${props.currentPage === 'questions' ? 'active' : ''}`}
           onclick="closeSidebar()"
@@ -49,18 +42,25 @@ export const Sidebar = (props: { currentPage: string }) => {
           Full Research Studies
         </a>
         <a
-          href="/scientific-papers"
-          class={`sidebar-nav-link ${props.currentPage === 'scientific-papers' ? 'active' : ''}`}
-          onclick="closeSidebar()"
-        >
-          Scientific Papers
-        </a>
-        <a
           href="/faq"
           class={`sidebar-nav-link ${props.currentPage === 'faq' ? 'active' : ''}`}
           onclick="closeSidebar()"
         >
           FAQ
+        </a>
+        <a
+          href="/what-is-synthetic-research"
+          class={`sidebar-nav-link ${props.currentPage === 'what-is-synthetic-research' ? 'active' : ''}`}
+          onclick="closeSidebar()"
+        >
+          What is Synthetic Research
+        </a>
+        <a
+          href="/scientific-papers"
+          class={`sidebar-nav-link ${props.currentPage === 'scientific-papers' ? 'active' : ''}`}
+          onclick="closeSidebar()"
+        >
+          Scientific Papers
         </a>
       </nav>
       <div class="sidebar-footer">
