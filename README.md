@@ -70,26 +70,10 @@ academy-sixseeds/
 2. Go to **Workers & Pages** → **Create Application** → **Pages** → **Connect to Git**
 3. Or use **Direct Upload** for manual deployment
 
-### Step 2: Deploy via Wrangler (Recommended)
+### Step 2: auto deployed to CLoudflare by github. 
 
-```bash
-# First time: Login to Cloudflare
-npx wrangler login
+`
 
-# Deploy to production
-npm run deploy
-```
-
-This will:
-- Build the project (`npm run build`)
-- Deploy to Cloudflare Pages (`wrangler pages deploy dist`)
-
-### Step 3: Configure Custom Domain
-
-1. In Cloudflare Pages project settings, go to **Custom Domains**
-2. Add `academy.sixseedsconsulting.com`
-3. Cloudflare will automatically configure DNS if sixseedsconsulting.com is in your account
-4. Wait 1-2 minutes for DNS propagation
 
 ### Alternative: Manual Deployment
 

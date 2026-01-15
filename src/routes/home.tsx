@@ -98,6 +98,14 @@ home.get('/', (c) => {
                 </div>
               </div>
             </div>
+
+            <div class="research-comparison-image">
+              <img
+                src="/static/research-comparison.webp"
+                alt="Comparison of Quantitative and Qualitative Research - Quantitative (The What) shows data, analytics, and surveys; Qualitative (The Why) shows in-depth interviews and focus groups"
+                style="width: 100%; max-width: 1200px; height: auto; margin: 2rem auto; display: block;"
+              />
+            </div>
           </section>
 
           <section class="content-section">
