@@ -41,35 +41,6 @@ home.get('/', (c) => {
 
             <div class="comparison-table">
               <div class="comparison-column">
-                <div class="comparison-header qualitative-primary">
-                  <h3>Qualitative Research</h3>
-                  <span class="badge">What This Tool Does</span>
-                </div>
-                <div class="comparison-content">
-                  <p class="comparison-description">
-                    Explores "why" and "how" questions through open-ended exploration of feelings,
-                    motivations, and underlying reasoning.
-                  </p>
-                  <h4>Example Questions</h4>
-                  <ul>
-                    <li>Why do consumers feel this way about the brand?</li>
-                    <li>What emotions does this packaging evoke?</li>
-                    <li>How do people describe their ideal shopping experience?</li>
-                    <li>What stories do consumers tell about using this product?</li>
-                    <li>What unmet needs exist in this category?</li>
-                  </ul>
-                  <h4>Outputs</h4>
-                  <ul>
-                    <li>Themes and narratives</li>
-                    <li>Emotional insights</li>
-                    <li>Consumer language and vocabulary</li>
-                    <li>Journey maps and experiences</li>
-                    <li>Conceptual frameworks</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="comparison-column">
                 <div class="comparison-header quantitative-secondary">
                   <h3>Quantitative Research</h3>
                   <span class="badge secondary">Not the Focus Here</span>
@@ -94,6 +65,35 @@ home.get('/', (c) => {
                     <li>Purchase likelihood scores</li>
                     <li>Preference distributions</li>
                     <li>Segment-by-segment breakdowns</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="comparison-column">
+                <div class="comparison-header qualitative-primary">
+                  <h3>Qualitative Research</h3>
+                  <span class="badge">What This Tool Does</span>
+                </div>
+                <div class="comparison-content">
+                  <p class="comparison-description">
+                    Explores "why" and "how" questions through open-ended exploration of feelings,
+                    motivations, and underlying reasoning.
+                  </p>
+                  <h4>Example Questions</h4>
+                  <ul>
+                    <li>Why do consumers feel this way about the brand?</li>
+                    <li>What emotions does this packaging evoke?</li>
+                    <li>How do people describe their ideal shopping experience?</li>
+                    <li>What stories do consumers tell about using this product?</li>
+                    <li>What unmet needs exist in this category?</li>
+                  </ul>
+                  <h4>Outputs</h4>
+                  <ul>
+                    <li>Themes and narratives</li>
+                    <li>Emotional insights</li>
+                    <li>Consumer language and vocabulary</li>
+                    <li>Journey maps and experiences</li>
+                    <li>Conceptual frameworks</li>
                   </ul>
                 </div>
               </div>
