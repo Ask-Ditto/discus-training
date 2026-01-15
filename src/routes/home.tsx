@@ -12,7 +12,7 @@ home.get('/', (c) => {
     >
       <section class="hero">
         <div class="hero-content">
-          <h1 class="hero-title">Welcome to 6 Seeds Academy</h1>
+          <h1 class="hero-title">Welcome to Your Synthetic Research Training Portal</h1>
           <p class="hero-subtitle">
             Master the art of synthetic research with our comprehensive training materials
           </p>
@@ -22,14 +22,101 @@ home.get('/', (c) => {
       <div class="container">
         <main>
           <section class="content-section">
-            <h2>Welcome to Your Synthetic Research Training Portal</h2>
+            <div class="highlight-box">
+              <h2>This Tool Excels at Qualitative Research</h2>
+              <p>
+                6 Seeds Synthetic Research is built for qualitative insights. Our platform recruits
+                synthetic focus groups that mirror real consumer segments, uncovering the motivations,
+                emotions, and reasoning behind consumer behavior.
+              </p>
+            </div>
+          </section>
+
+          <section class="content-section">
+            <h2>Understanding Research Types</h2>
             <p>
-              This portal contains everything you need to master 6 Seeds Synthetic Research -
-              a revolutionary consumer research platform that delivers insights in hours instead of weeks.
+              Before diving into the platform, it's important to understand the difference between
+              qualitative and quantitative research, and why this tool is optimized for the former.
             </p>
+
+            <div class="comparison-table">
+              <div class="comparison-column">
+                <div class="comparison-header qualitative-primary">
+                  <h3>Qualitative Research</h3>
+                  <span class="badge">What This Tool Does</span>
+                </div>
+                <div class="comparison-content">
+                  <p class="comparison-description">
+                    Explores "why" and "how" questions through open-ended exploration of feelings,
+                    motivations, and underlying reasoning.
+                  </p>
+                  <h4>Example Questions</h4>
+                  <ul>
+                    <li>Why do consumers feel this way about the brand?</li>
+                    <li>What emotions does this packaging evoke?</li>
+                    <li>How do people describe their ideal shopping experience?</li>
+                    <li>What stories do consumers tell about using this product?</li>
+                    <li>What unmet needs exist in this category?</li>
+                  </ul>
+                  <h4>Outputs</h4>
+                  <ul>
+                    <li>Themes and narratives</li>
+                    <li>Emotional insights</li>
+                    <li>Consumer language and vocabulary</li>
+                    <li>Journey maps and experiences</li>
+                    <li>Conceptual frameworks</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="comparison-column">
+                <div class="comparison-header quantitative-secondary">
+                  <h3>Quantitative Research</h3>
+                  <span class="badge secondary">Not the Focus Here</span>
+                </div>
+                <div class="comparison-content">
+                  <p class="comparison-description">
+                    Answers "how many" and "how much" questions with numerical data that can be
+                    measured, compared, and analyzed statistically.
+                  </p>
+                  <h4>Example Questions</h4>
+                  <ul>
+                    <li>What percentage of consumers prefer Product A over Product B?</li>
+                    <li>How likely are people to purchase at this price point?</li>
+                    <li>Which packaging design scores highest for shelf appeal?</li>
+                    <li>What is the optimal price range for this demographic?</li>
+                    <li>How does brand awareness compare across age groups?</li>
+                  </ul>
+                  <h4>Outputs</h4>
+                  <ul>
+                    <li>Percentages and rankings</li>
+                    <li>Statistical comparisons</li>
+                    <li>Purchase likelihood scores</li>
+                    <li>Preference distributions</li>
+                    <li>Segment-by-segment breakdowns</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="content-section">
+            <h2>Why Qualitative Focus?</h2>
             <p>
-              Use the navigation on the left to explore the training materials and learn about
-              synthetic research methodology, best practices, and industry applications.
+              The 6 Seeds platform recruits synthetic focus groups that represent specific consumer
+              segments. These groups are designed to provide rich, exploratory responses to
+              open-ended questions, making them ideal for:
+            </p>
+            <ul>
+              <li>Understanding consumer motivations and barriers</li>
+              <li>Exploring emotional responses to brands and products</li>
+              <li>Uncovering unmet needs and pain points</li>
+              <li>Generating ideas for new product development</li>
+              <li>Testing messaging and positioning concepts</li>
+            </ul>
+            <p>
+              Use the navigation on the left to continue through the training materials and learn
+              how to get the most from your qualitative research questions.
             </p>
             <p>
               For any questions or support, please contact us at{' '}

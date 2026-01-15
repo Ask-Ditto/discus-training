@@ -565,6 +565,116 @@ a:hover {
   border: 1px solid var(--color-border);
 }
 
+/* Highlight Box */
+.highlight-box {
+  background: linear-gradient(135deg, rgba(243, 171, 64, 0.1) 0%, rgba(243, 171, 64, 0.05) 100%);
+  border: 2px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  padding: var(--space-8);
+  text-align: center;
+}
+
+.highlight-box h2 {
+  color: var(--color-primary);
+  margin-bottom: var(--space-4);
+}
+
+.highlight-box p {
+  color: var(--color-text);
+  font-size: 1.125rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Comparison Table */
+.comparison-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6);
+  margin-top: var(--space-6);
+}
+
+.comparison-column {
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.comparison-header {
+  padding: var(--space-6);
+  text-align: center;
+}
+
+.comparison-header h3 {
+  margin: 0 0 var(--space-2) 0;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.comparison-header.qualitative-primary {
+  background: linear-gradient(135deg, var(--color-success) 0%, #059669 100%);
+}
+
+.comparison-header.quantitative-secondary {
+  background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%);
+}
+
+.badge {
+  display: inline-block;
+  padding: var(--space-1) var(--space-3);
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.badge.secondary {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.comparison-content {
+  background: white;
+  padding: var(--space-6);
+}
+
+.comparison-description {
+  font-size: 0.9375rem;
+  color: var(--color-text);
+  margin-bottom: var(--space-4);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.comparison-content h4 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-text);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: var(--space-4) 0 var(--space-3) 0;
+}
+
+.comparison-content ul {
+  margin: 0 0 var(--space-4) var(--space-4);
+  padding: 0;
+}
+
+.comparison-content li {
+  font-size: 0.9375rem;
+  color: var(--color-text-light);
+  margin-bottom: var(--space-2);
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .comparison-table {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .sidebar {
